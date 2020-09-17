@@ -1,0 +1,210 @@
+/*index start*/
+	*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	}
+	
+	.mySelcted_cart{
+	height:320px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	}
+	
+	.my_cart{
+	display:flex;
+	}
+	
+	#cart_price{
+	align-self:center;
+	}
+	
+	#menuBar .navbar-nav{
+	width:100%;
+	}
+	
+	#login{
+	flex: 1;
+	text-align: right;
+	}
+	
+	.my_cart .dropdown-menu {
+	left:auto !important;
+	right:0;
+	}
+	
+	.selected_product{
+	display:flex;
+	align-items: center;
+	}
+	
+	.carousel-item.active,
+	.carousel-item-next,
+	.carousel-item-prev{
+	display:flex !important;
+	}
+	
+	.carousel-control-next:focus,  
+	.carousel-control-prev:focus{
+	opacity: .5;
+	}
+	
+	.carousel-control-next:hover,  
+	.carousel-control-prev:hover{
+	opacity: .9 !important;
+	}
+
+	
+	.carousel-item img{
+	max-height:465px;
+	}
+	
+	.carousel-indicators li{
+	width: 10px;
+    height: 10px;
+    border-radius: 50%;
+	}
+	
+	.w-60{
+	width:60% !important;
+	}
+	
+	.w-40{
+	width:40% !important;
+	}
+	
+	.carousel-control-next, .carousel-control-prev {
+	width:3%;
+	}
+	
+	#homePage_carousel .row{
+	margin-right: 0px;
+    margin-left: 0px;
+	}
+	
+	.promote_item:before{
+	content: '';
+    position: absolute;
+    background: rgba(0,0,0,.9);
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+	opacity:0.3;
+	}
+	
+	.promote_item:hover:before{
+	opacity:0.6;
+	}
+	
+	.product-text{
+	position:absolute;
+	text-align:center;
+	top: 50%;
+	left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	white-space: nowrap;
+	}	
+	
+	.product-title{
+	color:#fff;
+	font-size:2em;
+	font-weight:bold;
+	}
+	
+	.product-secondTitle{
+	color:#fff;
+	}
+	
+	.footer{
+	white-space:nowrap;
+	}
+	
+	.footer_menu{
+	background:#000;
+	height:3em;
+	margin-left:0px;
+	display:flex;
+	align-items:center;
+	}
+	
+	.footer_item + .footer_item{
+	border-left:1px dashed #fff;
+	}
+	
+	.footer_item{
+	color:#fff;
+	}
+	
+	.copyRight{
+	height:1.5em;
+	display:flex;
+	align-items:center;
+	}
+	
+	
+	
+	@media(max-width:768px){
+		.navbar-brand{
+		position:absolute;
+		left: 50%;
+		top:0.75rem;
+		transform: translateX(-50%);	
+		margin:auto;
+		}
+		
+		.my_cart{
+		position:absolute;
+		right:0;
+		top:0.55rem;
+		}
+		
+		#login{
+		flex: 1;
+		text-align: left;
+		}
+		
+		.footer_item:nth-of-type(5){
+		border-left:1px  #fff;
+		}
+	}
+	
+/*index end*/
+/*product start*/
+	.product_img img{
+	width:100%;
+	}
+	
+	.product_tag{
+	display:flex;
+	justify-content:flex-end;
+	}
+	
+	.tag_item{
+	border-radius:15%;
+	color:#fff;
+	font-size:1em;
+	line-height:1.3em;
+	padding:0 2px;
+	margin:0 2px;
+	}
+	
+	.product_price_bar{
+	text-align:right;
+	}
+	
+	.putInCart{
+	float: right;
+	}
+	
+	.product_item .btn{
+	line-height:1;
+	}
+	
+	.container h2{
+	font-size:2em;
+	}
+	
+	.noGood{
+	background:#ffb5b5c9;
+	line-height:3em;
+	}
+/*product end*/
